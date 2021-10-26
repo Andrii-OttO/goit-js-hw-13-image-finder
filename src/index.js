@@ -9,7 +9,7 @@ const findImg = document.querySelector('.found')
 
 const apiServiseImg = new ApiServiseImg();
 
-findImg.addEventListener('click', onSearch)
+//findImg.addEventListener('click', onSearch)
 LoadMore.addEventListener('click',OnloadMore)//OnloadMore
 inputSearch.addEventListener('submit', onSearch)
 
@@ -21,6 +21,7 @@ function onSearch(e) {
     onClearMarkup();
     fetchImages();
     LoadMore.disabled = false;
+LoadMore.style.backgroundColor = 'lightgreen';
 }
 
 function fetchImages() {

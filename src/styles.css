@@ -12,12 +12,42 @@ input{
     display: flex;
     justify-content: center;
 }
+.found-btn{
+    width: 100px;
+    height: 34px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-left: 20px;
+}
 .loadMore {
     width: 130px;
     height: 40px;
-    background-color: blueviolet;
+    background-color: inherit;
     border: 1px solid black;
     color: black;
     border-radius: 5px;
     margin-left: 45%;
-  }
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.photo-card {
+    margin-bottom: 20px;
+}
+.card__image {
+    border-radius: 5%;
+    width: 450px;
+    height: 350px;
+}
+.stats {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    width: 400px;
+}
+.stats-item {
+    display: flex;
+}
