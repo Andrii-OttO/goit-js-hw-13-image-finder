@@ -1,0 +1,33 @@
+{
+  "name": "goit-js-hw-13-image-finder",
+  "version": "1.0.0",
+  "description": "goit-js-hw-13-image-finder",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-13-image-finder/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrii-OttO/goit-js-hw-13-image-finder.git"
+  },
+  "author": "Andrii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrii-OttO/goit-js-hw-13-image-finder/issues"
+  },
+  "homepage": "https://Andrii-OttO/goit-js-hw-13-image-finder",
+  "devDependencies": {
+    "posthtml-include": "^1.7.2",
+    "gh-pages": "^3.2.3",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  }
+}

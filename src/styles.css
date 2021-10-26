@@ -1,0 +1,23 @@
+body{
+    margin: 40px;
+    background-color: blanchedalmond;
+}
+input{
+    width: 250px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+   }
+.search-form{
+    display: flex;
+    justify-content: center;
+}
+.loadMore {
+    width: 130px;
+    height: 40px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+    margin-left: 45%;
+  }
